@@ -1,0 +1,20 @@
+<resources>
+    <string name="empty"></string>
+    <string name="app_name">10120908Latihan3</string>
+    <string name="start">Mulai</string>
+    <string name="monitory_help_desc">Monitory Membantu Anda Mengontol HP Anak</string>
+    <string name="family_code">Kode Keluarga</string>
+    <string name="family_code_desc">Ketikkan kode keluarga yang Ayah Bunda miliki disini</string>
+    <string name="family_code_terms">Dengan menekan tombol masuk berarti Anda menyetujui <b>Ketentuan Pengguna</b> dan <b>Kebijakan Data</b> kami</string>
+    <string name="entry">Masuk</string>
+    <string name="buy_code_here">Beli Kode Keluarga Disini</string>
+    <string name="have_family_code">Belum punya kode keluarga?</string>
+    <string name="call_name">Nama Panggilan Kamu</string>
+    <string name="example_name">Contoh : Budi</string>
+    <string name="age">Umur Kamu</string>
+    <string name="example_age">Contoh : 12</string>
+    <string name="next">Selanjutnya</string>
+    <string name="congratulations">Beres! Sekarang %s\nudah bisa ngecek\npenggunaan HP %s\ntiap hari buat bantu %s\nngatur waktu :)</string>
+    <string name="ok">Oke</string>
+    <string name="cannot_empty">Mohon diisi</string>
+</resources>

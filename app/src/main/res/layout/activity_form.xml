@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_three">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvCallName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24dp"
+        android:layout_marginTop="@dimen/_48dp"
+        android:text="@string/call_name"
+        android:textAppearance="@style/TextAppearance.Rubik.Bold.Headline5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/boxCallName"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24dp"
+        android:layout_marginTop="@dimen/_16dp"
+        android:layout_marginEnd="@dimen/_24dp"
+        android:hint="@string/empty"
+        app:boxStrokeColor="@drawable/bg_text_input_layout_2"
+        app:expandedHintEnabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvCallName"
+        app:placeholderText="@string/example_name"
+        app:placeholderTextAppearance="@style/TextAppearance.Rubik.Regular.Subtitle1"
+        app:placeholderTextColor="@color/gunmetal">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etCallName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_three" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24dp"
+        android:layout_marginTop="@dimen/_24dp"
+        android:text="@string/age"
+        android:textAppearance="@style/TextAppearance.Rubik.Bold.Headline5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/boxCallName" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/boxAge"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24dp"
+        android:layout_marginTop="@dimen/_12dp"
+        android:layout_marginEnd="@dimen/_24dp"
+        android:hint="@string/empty"
+        app:boxStrokeColor="@drawable/bg_text_input_layout_2"
+        app:expandedHintEnabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvAge"
+        app:placeholderText="@string/example_age"
+        app:placeholderTextAppearance="@style/TextAppearance.Rubik.Regular.Subtitle1"
+        app:placeholderTextColor="@color/gunmetal">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_three" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="@dimen/_250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24dp"
+        android:layout_marginEnd="@dimen/_24dp"
+        android:layout_marginBottom="@dimen/_48dp"
+        android:background="@drawable/button_yellow"
+        android:padding="@dimen/_4dp"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.Rubik.Regular.Body1"
+        android:textColor="@color/black"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
