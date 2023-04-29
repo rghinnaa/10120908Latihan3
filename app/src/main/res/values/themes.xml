@@ -33,7 +33,6 @@
     <style name="TextAppearance.Rubik.Regular.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
         <item name="android:letterSpacing">0</item>
         <item name="fontFamily">@font/rubik_regular</item>
-        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="TextAppearance.Rubik.Regular.Caption" parent="TextAppearance.MaterialComponents.Caption">

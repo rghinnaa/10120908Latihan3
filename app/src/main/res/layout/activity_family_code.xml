@@ -37,7 +37,7 @@
         android:layout_marginStart="@dimen/_16dp"
         android:layout_marginTop="@dimen/_24dp"
         android:layout_marginEnd="@dimen/_16dp"
-        android:background="@color/white"
+        app:boxBackgroundColor="@color/white"
         app:boxCornerRadiusBottomEnd="@dimen/_24dp"
         app:boxCornerRadiusBottomStart="@dimen/_24dp"
         app:boxCornerRadiusTopEnd="@dimen/_24dp"
